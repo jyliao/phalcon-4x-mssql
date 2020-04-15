@@ -359,8 +359,7 @@ class Sqlsrv extends \Phalcon\Db\Adapter\Pdo\AbstractPdo implements \Phalcon\Db\
 
     public function tableExists(string $tableName, string $schemaName = null): bool
     {
-        $result = $this->execute("select * from dbo.sysobjects where id = object_id(N'[dbo].[$tableName]')");
-        var_dump($result);exit;
+        return $this->execute("select * from dbo.sysobjects where id = object_id(N'[dbo].[$tableName]')");
     }
 
     /**
