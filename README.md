@@ -1,8 +1,14 @@
 # phalcon-4x-mssql
 Connecting to Microsoft SQL Server PDO driver With Phalcon Framework v4
+
 Supports: 'ODBC' - 'DBLIB' - 'SQLSRV'
-Recommended use SQLSRV   
+
+Recommended use SQLSRV
+
 https://pecl.php.net/package-search.php?pkg_name=sqlsrv
+
+
+
 
 # package dir
 ```dir
